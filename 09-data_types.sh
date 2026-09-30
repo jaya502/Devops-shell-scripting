@@ -8,7 +8,7 @@ NAME=Devops
 SUM=$(($NUMBER1+$NUMBER2+$NAME))
 
 echo "SUM is: ${SUM}"
-
+# size =4 , max index =3
 LEADERS=("Modi" "Putin" "Trump" "Trudo")
 
 echo "All Leaders: ${LEADERS[@]}"

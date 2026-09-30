@@ -7,7 +7,7 @@ if [ $USERID -ne 0 ]; then
     exit 1 #failure is other than 0
 fi
 
-dnf isnatll mysql -y
+dnf install mysql -y
 
 if [ $? -ne 0 ]; then
     echo "ERROR:: Installing MYSQL is failuring"
